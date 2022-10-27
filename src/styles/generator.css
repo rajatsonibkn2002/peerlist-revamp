@@ -226,9 +226,18 @@ input, select{
 
 @media screen and (max-width: 730px){
     .external-links{
-        /* width: 90vw; */
         gap: 20px;
-        /* margin-bottom: 20px; */
         flex-direction: column;
+    }
+
+    .input-div{
+        width: 90vw !important;
+    }
+    .generator-name, .generator-dropdown, .generator-username{
+        width: 90vw;
+    }
+
+    select{
+        width: 85vw !important;
     }
 }

@@ -5,7 +5,7 @@ nav{
     margin: 0 auto 0 auto;
     padding: 20px 0 20px 0;
     
-    width: 90vw;
+    width: 80vw;
 
     justify-content: space-between;
 }
@@ -70,17 +70,28 @@ nav a{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 20px;
 
-    width: 550px;
+    /* width: 550px; */
+}
+
+.git-btns{
+    display: flex;
+    gap: 20px;
 }
 
 @media screen and (max-width: 730px){
     nav{
-        width: 90vw;
+        width: 80vw;
         flex-direction: column;
     }
 
     .peerlist-logo{
         margin-bottom: 30px;
+    }
+
+    .nav-right{
+        flex-direction: column;
+        width: 90vw;
     }
 }
